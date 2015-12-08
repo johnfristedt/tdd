@@ -20,6 +20,11 @@ namespace Lib1
             return sum;
         }
 
+        public static int XMinusY(int x, int y)
+        {
+            return x - y;
+        }
+
         public static float XDivideY(float x, float y)
         {
             if (y == 0)

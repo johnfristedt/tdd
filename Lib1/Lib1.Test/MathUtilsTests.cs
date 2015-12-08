@@ -37,6 +37,22 @@ namespace Lib1.Test
         }
 
         [TestMethod]
+        public void XMinusYReturnsDifference()
+        {
+            // Arrange
+            int x = 10;
+            int y = 5;
+            int expected = 5;
+            int actual;
+
+            // Act
+            actual = MathUtils.XMinusY(x, y);
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
         public void XDivideYReturnsQuotient()
         {
             // Arrange
